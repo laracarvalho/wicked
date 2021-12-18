@@ -1,0 +1,93 @@
+/*
+* RESET
+*/
+
+html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+main {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img { 
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+q:before, q:after {
+    content:'';
+}
+
+abbr, acronym {
+    border: 0;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+/* Removing animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {  
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }

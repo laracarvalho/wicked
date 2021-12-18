@@ -1,0 +1,72 @@
+@use '../abstracts/variables';
+
+/*
+* TYPOGRAPHY
+*/
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: variables.$light-white;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.subtitle {
+    font-size: 12px;
+}
+
+a {
+    color: variables.$light-white;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.highlight-text {
+    color: variables.$hightlight;
+}
+
+blockquote {
+    padding: 14px;
+    background: rgba(51, 51, 51, 0.3);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: italic;
+
+}
+
+
+@media (max-width: variables.$sm) {
+    h1 {
+        font-size: 24px;
+    }
+}

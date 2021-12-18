@@ -1,0 +1,18 @@
+{
+  "name": "sass-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "sass --watch src/_assets/sass/main.scss src/assets/css/style.css",
+    "clean": "rm -rf ./test"
+  },
+  "keywords": [
+    "sass",
+    "boilerplate"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.45.0"
+  }
+}
